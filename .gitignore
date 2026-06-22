@@ -1,0 +1,6 @@
+# Subprojects are their own git repositories (pushed to separate remotes).
+# The root repo only tracks umbrella files: CLAUDE.md, docs/, .claude/, .vscode/.
+/src/
+
+# OS / editor noise
+.DS_Store
