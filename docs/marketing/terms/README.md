@@ -24,7 +24,7 @@ _The four term groups:_
 
 ## Why / when to use it
 
-The strategy doc — [subscription-bundle-and-influencer-attribution.md](../subscription-bundle-and-influencer-attribution.md) — makes decisions *using* these terms (e.g. "hard paywall converts 5× better than freemium"). If a sentence there is unclear, the underlying term is defined in one of the four files above.
+The strategy docs — [subscription-bundle-and-influencer-attribution.md](../subscription-bundle-and-influencer-attribution.md) (the decisions) and [creator-outreach-and-barter-ops.md](../creator-outreach-and-barter-ops.md) (the day-to-day outreach playbook) — make decisions _using_ these terms (e.g. "hard paywall converts 5× better than freemium"). If a sentence there is unclear, the underlying term is defined in one of the four files above.
 
 ---
 

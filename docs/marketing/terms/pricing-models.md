@@ -9,7 +9,7 @@
 
 ## What it is
 
-A **pricing model** is simply the rule for *when and how* a user has to pay. The same app can make wildly different money depending on which model it uses. The four you need to know:
+A **pricing model** is simply the rule for _when and how_ a user has to pay. The same app can make wildly different money depending on which model it uses. The four you need to know:
 
 _The core pricing terms, everyday explanation first:_
 
@@ -33,10 +33,10 @@ _How the same downloads turn into payers under each model:_
 | **Freemium** | ~**2.1%** | ~210 paying users |
 | **Hard paywall** | ~**10.7%** | ~**1,070** paying users |
 
-So "hard paywall vs freemium conversion" — the row you asked about — just means: *of the people who download, what fraction pays, and a hard paywall converts about 5× more of them.* The trade-off is that a hard paywall usually gets **fewer downloads** (people are scared off by paying up front), but the ones who stay are worth far more.
+So "hard paywall vs freemium conversion" — the row you asked about — just means: _of the people who download, what fraction pays, and a hard paywall converts about 5× more of them._ The trade-off is that a hard paywall usually gets **fewer downloads** (people are scared off by paying up front), but the ones who stay are worth far more.
 
 > [!IMPORTANT]
-> Free trials soften the hard-paywall downside: the user gets in free, gets hooked, then is auto-charged. The best apps convert **60%+** of trial users into payers.
+> Free trials soften the hard-paywall downside: the user gets in free, gets hooked, then is auto-charged. The best apps convert **60%+** of trial users into payers. For running a 3-day anonymous local trial then a combined register-and-subscribe gate, see [registration-trial-and-data-lockin.md](../registration-trial-and-data-lockin.md).
 
 ---
 
@@ -50,13 +50,13 @@ Hard paywall:    10,000 downloads -> ~10.7% pay -> ~1,070 subscribers
 Trial + paywall: 10,000 downloads -> trial start -> ~60% convert from trial
 ```
 
-For your bundle plan, hard paywall (optionally with a trial) is the recommended model, because the whole point is that the apps are usable **only after subscribing**.
+For your bundle plan, hard paywall (optionally with a trial) is the recommended model, because the whole point is that the apps are usable **only after subscribing**. For how to disclose that requirement so users are not surprised, see [hard-paywall-transparency.md](../hard-paywall-transparency.md).
 
 ---
 
 ## Key points / gotchas
 
-- **Freemium ≠ free.** It means free *to start*; the business still depends on the small fraction who pay.
+- **Freemium ≠ free.** It means free _to start_; the business still depends on the small fraction who pay.
 - **Hard paywall trades download volume for conversion.** Fewer people try it, but far more of them pay.
 - **A free trial is still a hard paywall** — just with a delayed first charge. It is the usual way to make hard paywalls less scary.
 - **A bundle is about perceived value**, not a discount — "many apps, one price" is the story that justifies subscribing.

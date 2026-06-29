@@ -68,7 +68,7 @@ Reading it: conversion fills the top, ARPU sets the monthly value, churn drains 
 
 - **Chasing downloads while ignoring conversion.** A million downloads at 0% conversion is $0.
 - **Ignoring churn.** High churn quietly cancels out good conversion — you fill a leaky bucket.
-- **Comparing LTV figures without the time window.** "LTV $23" usually means *after year 1*; lifetime-forever numbers differ.
+- **Comparing LTV figures without the time window.** "LTV $23" usually means _after year 1_; lifetime-forever numbers differ.
 
 ---
 
