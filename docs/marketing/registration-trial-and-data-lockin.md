@@ -65,6 +65,15 @@ _Handling the remaining pre-account window if farming becomes real:_
 
 Optimise for the ~95% who will not farm; the cloud sync already closes the loophole the moment they convert.
 
+_Which sign-in methods to offer at the gate:_
+
+| You offer... | You must also offer | Recommendation |
+| :--- | :--- | :--- |
+| **Email + password only** (your own auth) | Nothing extra | **Start here** — simplest, no Apple obligation, identical on Android |
+| **Google / Facebook login** | **Sign in with Apple** | Add social login later only if users ask; pair it with Sign in with Apple |
+
+Starting with email + password keeps auth simple and avoids the Sign-in-with-Apple requirement entirely until you actually add a social provider.
+
 ---
 
 ## Key points / gotchas
@@ -73,7 +82,7 @@ Optimise for the ~95% who will not farm; the cloud sync already closes the looph
 - **Sync local data to the cloud at the gate** so subscribing preserves the 3 days and makes the history server-backed — keep the "your data comes with you" incentive without a Day-1 lock-in.
 - **Cloud sync closes the loophole at conversion.** The reset trick only works in the pre-account window (Day 0–3); once synced, the account is a server-side identity a reinstall cannot wipe.
 - **Announce the 3-day terms in onboarding.** Up-front disclosure is what keeps it honest rather than a surprise (see [hard-paywall-transparency.md](hard-paywall-transparency.md)).
-- **Offer Sign in with Apple** if the combined gate uses any social login.
+- **Start with email + password only.** It avoids the Sign-in-with-Apple requirement; add Google/Facebook (plus Sign in with Apple) later only if users ask.
 - **Be exact about "3 days"** — define 72h-from-first-open vs calendar days and show it consistently.
 
 ---

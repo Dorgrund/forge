@@ -20,6 +20,29 @@ The agreement layer of the [outreach playbook](creator-outreach-and-barter-ops.m
 
 Because the everyday failure in barter is not a lawsuit — it is a creator who takes the free premium and never posts, or posts something off-brand. The data backs this: **67%** of influencer–brand disputes come from **unclear terms, not actual performance failures**. A one-page agreement removes that ambiguity for almost no cost, and at the same time carries the FTC clause that caps your legal exposure.
 
+> [!IMPORTANT]
+> For a small brand operating internationally (e.g. based in Ukraine, creators abroad), the agreement is **not** a tool to punish creators in court — cross-border lawsuits are not viable, and small-claims courts do not work across borders. Its real jobs are **liability-shifting** (the `#ad` clause moves disclosure liability onto the creator), **setting expectations**, and a **paper trail**. Your actual enforcement is the **backend kill-switch** below.
+
+---
+
+## Backend enforcement (your real lever)
+
+The agreement documents the deal; your **server** enforces it. Because everything you give a creator is **ongoing and revocable**, you never need a court.
+
+_What you control directly, instantly, for free:_
+
+| Creator behaviour | Your response from the backend |
+| :--- | :--- |
+| Does not post | **Deactivate their promo code; revoke free premium** |
+| Posts without `#ad` | Same — pause until fixed |
+| Drives chargebacks / fraud via their code | Kill the code, stop revenue share |
+| Honours the deal | Keep everything active; pay the share |
+
+This is **self-help enforcement**: you paid no cash up front, so there is nothing to claw back — you simply stop giving. For barter, this beats a contract because the leverage is structural, not legal.
+
+> [!WARNING]
+> Do not pay a lawyer expecting to chase creators across borders. The proper cross-border tool (international arbitration under the New York Convention) is built for deals worth tens of thousands, not a free app subscription. Design the system so the kill-switch is all you ever need.
+
 ---
 
 ## Example
@@ -87,6 +110,30 @@ _Ways to get the agreement signed:_
 
 ---
 
+## Is a Google Form valid proof — and does asking them to disclose protect me?
+
+Two separate questions, two different answers.
+
+_Is a Google Form valid consent across countries?_
+
+| Jurisdiction | A checkbox "I agree" is... | Catch |
+| :--- | :--- | :--- |
+| **US** (ESIGN/UETA) | A valid e-signature if it shows intent and is tied to the person | Courts have upheld checkboxes |
+| **EU** (eIDAS) | A valid **simple** electronic signature | The **weakest** evidentiary tier (below advanced/qualified) |
+| **Most others** | Generally valid for low-stakes agreements | Same — it is the floor, not strong proof |
+
+> [!IMPORTANT]
+> A bare Google Form response is **weak evidence on its own**. To be defensible it needs clear consent language, **identity metadata (email, IP, timestamp)**, and an **unaltered record** of what was agreed. A proper e-sign tool (DocuSeal/OpenSign) captures that automatically, which is why it is stronger for the same effort. For low-stakes barter a Form is acceptable; do not rely on it for anything bigger.
+
+_Does proof that you asked them to add `#ad` protect you from regulators?_
+
+> [!WARNING]
+> **No — "I instructed them" is not a complete defense.** The FTC requires brands to do three things: **instruct** (exact wording + placement), **monitor** what they actually post, and **take corrective action** when they do not. The signed Form proves only the first. If a creator forgets `#ad` and you did nothing, you are **still liable**.
+
+The useful part: steps 2 and 3 are exactly your **backend kill-switch** — check that the creator actually posted with `#ad` (you track their code anyway), and deactivate the code or pause premium if they did not. So the same kill-switch that enforces the deal **is also your FTC compliance mechanism**. The Form proves the instruction; the kill-switch proves the monitoring and correction.
+
+---
+
 ## Common mistakes
 
 What happens if you proceed without any agreement — the honest version:
@@ -97,7 +144,7 @@ _Risk of going without, by type:_
 | :--- | :--- | :--- |
 | **Operational** | Creator takes free premium and never posts, posts late, or posts off-brand; "scope creep" — they expected more than you did | High, and common |
 | **Legal (FTC)** | No clause forces `#ad`; if the Creator does not disclose, the **Brand shares liability up to $53,088 per violation** | Lower odds, severe |
-| **Ownership / enforcement** | Nothing agreed means nothing to enforce — you cannot require a post or reuse their content | Medium |
+| **Ownership / expectations** | Nothing written means disputes over what was promised; you also cannot reuse their content. (Note: enforcement is the **backend kill-switch**, not the courts — see above) | Medium |
 
 - **Going without is survivable for one tiny barter deal** — many people do it — but it **scales badly**. At ~80 creators, "a few ghost you, one triggers an FTC issue" shifts from hypothetical to likely.
 - **The cheap fix beats the cheap shortcut.** A free e-sign template costs nothing and removes the two failure modes (no-show and FTC exposure) that actually bite at scale.
@@ -111,8 +158,11 @@ _Risk of going without, by type:_
 - [esign.ai — Free DocuSign alternatives](https://www.esign.ai/blog/best-free-docusign-alternatives-individuals-usa-unlimited)
 - [InfluenceFlow — Influencer marketing contracts guide 2025](https://influenceflow.io/resources/influencer-marketing-contracts-the-complete-2025-guide-for-brands-and-creators/)
 - [FTC — Endorsements, Influencers, and Reviews](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews)
+- [PAIL Solicitors — Cross-border influencer marketing legal guide](https://pailsolicitors.co.uk/media-solicitors/mastering-cross-border-influencer-marketing-a-legal-guide)
+- [esign.ai — Is a checkbox a legal signature?](https://www.esign.ai/blog/is-checkbox-legal-signature)
+- [Honigman — Avoiding FTC penalties for brand partners](https://www.honigman.com/the-matrix/mitigating-risk-in-the-influencer-economy-a-legal-guide-to-avoiding-ftc-penalties-for-brand-partners)
 
 ---
 
 > [!TIP]
-> **TL;DR** — Use a one-page plain-language barter agreement (example above), get it signed with a free e-signature tool like OpenSign or DocuSeal via a reusable template (or a Google Form checkbox for lighter deals); going without is survivable once but scales badly — the everyday risk is no-show creators, the rare-but-severe one is shared FTC liability up to $53,088, and both are removed cheaply by signing.
+> **TL;DR** — Use a one-page plain-language barter agreement for liability-shifting and clear expectations (not for suing anyone — cross-border lawsuits are not viable from Ukraine); a Google Form checkbox is valid-but-weak consent in most countries (an e-sign tool is stronger for the same effort), and proving you "asked for #ad" is **not** a complete regulator defense — you must also monitor and correct, which is exactly what your **backend kill-switch** does, so the same kill-switch is both your enforcement and your FTC compliance.
